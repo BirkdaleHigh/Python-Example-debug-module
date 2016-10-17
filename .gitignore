@@ -1,0 +1,6 @@
+﻿# Ignore system and editor files
+.vscode/*
+Thumbs.db
+
+# Add editor runnner configuration
+!.vscode/launch.json
