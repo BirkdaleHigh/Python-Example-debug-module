@@ -2,5 +2,9 @@
 .vscode/*
 Thumbs.db
 
+# ignore generated python files
+__pycache__/*
+*.pyc
+
 # Add editor runnner configuration
 !.vscode/launch.json
