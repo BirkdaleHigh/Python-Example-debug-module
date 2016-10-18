@@ -1,8 +1,11 @@
 # Debugging and Modules
-Use this as a reasource to get your head around the debugger by using it to learn how modules in python work.
+Use this as a resource to get your head around the debugger by using it to learn how modules in python work.
 
 ## Why Debug
-The debugger is a program you can use to inspect your program in python. When programming it is necessary to understand hows your functions, logic and variables are intereacting. You could try very hard to make up a mental picutre of how the computer will reason about you code. Since your computer is already doing that by running the program, just ask it to tell you. A debugger is how you do that.
+The debugger is a program you can use to inspect your program in python.
+When programming it is necessary to understand how your functions, logic and variables are interacting.
+You could try very hard to make up a mental picture of how the computer will reason about your code.
+Since your computer is already doing that by running the program, just ask it to tell you. A debugger is how you do that.
 
 ## Instructions
 
@@ -18,7 +21,7 @@ The debugger is a program you can use to inspect your program in python. When pr
 1. View your code. The top left icon is the files View
 1. On one of your code file press F5 to start the debugger
 1. This will create a `launch.json` file that VS code uses to learn how to run your work. You can ignore this.
-1. Since our program requests user input, it will hang in the backround when VS Code runs it. Change the to the External debug option to get user input.
+1. Since our program requests user input, it will hang in the background when VS Code runs it. Change the to the External debug option to get user input.
 
 Currently you will have to install that plugin every time you log on.
 
@@ -48,7 +51,7 @@ Open that `launch.json` file again because we want to add another run option.
 
 Have a look at the example settings below.
 
-```
+```json
 {
     "name": "My Project Settings",
     "type": "python",
@@ -62,4 +65,4 @@ Have a look at the example settings below.
         "WaitOnNormalExit"
     ]
 }
-``
+```
